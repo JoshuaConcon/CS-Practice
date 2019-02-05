@@ -1,6 +1,6 @@
-# CS-Practice
+# Competitve Programming Practice
 
-Programming Exercises and Such From
+Programming Exercise and a hub of all the links to my competitive programming efforts.
 
-- Euler Project
-- Hackerrank
+- [HackerRank](https://www.hackerrank.com/JoshuaConcon)
+- [Daily Coding Problem](https://www.dailycodingproblem.com)
