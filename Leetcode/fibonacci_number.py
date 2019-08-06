@@ -3,7 +3,7 @@
 
 def DP_fib(N: int) -> int:
     fib_nums = [0,1]
-    while(len(fib_nums) <= N):
+    for _ in range(1,N):
         fib_nums.append(fib_nums[-1] + fib_nums[-2])
     return fib_nums[-1]
 
