@@ -1,0 +1,11 @@
+class Solution:
+    def uniqueOccurrences(self, arr: List[int]) -> bool:
+        occurrence_dict = {}
+        for integer in arr:
+            if(integer not in occurrence_dict):
+                occurrence_dict[integer] = 1
+            else:
+                occurrence_dict[integer] += 1
+        occurrences = occurrence_dict.values()
+        occurrences_set = set(occurrences)
+        return len(occurrences) == len(occurrences_set)
